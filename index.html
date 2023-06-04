@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  <link rel="stylesheet" href="dist/style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+  <script src="script/script.js" async></script>
+  
+  <title>Frontend Mentor | Newsletter sign-up form with success message</title>
+</head>
+<body>
+
+ <div class="container">
+  <main>
+    <picture class="pic">
+      <source class="svg" media="(min-width: 600px)" srcset="../desk.svg">
+      <img src="../main.svg" alt="">
+    </picture>
+    <div class="body">
+      <h2>Stay updated!</h2>
+      <p class="para">Join 60,000+ product managers receiving monthly updates on:</p>
+      <div class="main">
+        <p><svg xmlns="http://www.w3.org/2000/svg" width="21" height="21" viewBox="0 0 21 21"><g fill="none"><circle cx="10.5" cy="10.5" r="10.5" fill="#FF6155"/><path stroke="#FFF" stroke-width="2" d="M6 11.381 8.735 14 15 8"/></g></svg>Product discovery and building what matters</p>
+        <p><svg xmlns="http://www.w3.org/2000/svg" width="21" height="21" viewBox="0 0 21 21"><g fill="none"><circle cx="10.5" cy="10.5" r="10.5" fill="#FF6155"/><path stroke="#FFF" stroke-width="2" d="M6 11.381 8.735 14 15 8"/></g></svg>Measuring to ensure updates are a success</p>
+        <p><svg xmlns="http://www.w3.org/2000/svg" width="21" height="21" viewBox="0 0 21 21"><g fill="none"><circle cx="10.5" cy="10.5" r="10.5" fill="#FF6155"/><path stroke="#FFF" stroke-width="2" d="M6 11.381 8.735 14 15 8"/></g></svg>And much more!</p>
+      </div>
+      <form action="success.html" id="form" method="get">
+        <div class="heading">
+          <h1>Email address</h1>
+          <p id="error"></p>
+        </div>
+        <input type="email" placeholder="email@company.com" id="email">
+        <div class="btn">
+          <input type="submit" value="Sunscribe to monthly newsletter">
+        </div>
+      </form>
+    </div>
+   
+  </main>
+ </div>
+  
+  <!-- <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Your Name Here</a>.
+  </div> -->
+</body>
+</html>
